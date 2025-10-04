@@ -117,18 +117,18 @@ li {
   letter-spacing: 0.32px;
 }
 
-.post-section-ourteam {
+.posts-section-ourteam {
   background-color: #f4f4fd;
 }
 
-.post-section-ourteam-title {
+.posts-section-ourteam-title {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.72px;
 }
 
-.post-section-ourteam-nameparticipants {
+.posts-section-ourteam-nameparticipants {
   color: #2e2f42;
   font-weight: 600;
   font-size: 20px;
@@ -136,25 +136,30 @@ li {
   line-height: 1.2;
 }
 
-.post-section-ourteam-text {
+.posts-section-ourteam-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
-.post-section-ourportfolio {
+.posts-section-ourteam-post-img {
+  width: 264px;
+  height: 260px;
+}
+
+.posts-section-ourportfolio {
   background-color: #ffffff;
 }
 
-.post-section-ourportfolio-title {
+.posts-section-ourportfolio-title {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.72px;
 }
 
-.post-section-ourportfolio-projectnames {
+.posts-section-ourportfolio-projectnames {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -162,7 +167,12 @@ li {
   line-height: 1.5;
 }
 
-.post-section-ourportfolio-text {
+.posts-section-ourportfolio-post-img {
+  width: 360px;
+  height: 300px;
+}
+
+.posts-section-ourportfolio-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
