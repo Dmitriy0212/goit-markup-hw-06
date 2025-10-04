@@ -1,0 +1,185 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto','Raleway', sans-serif;
+}
+
+.post-section-header {
+  background-color: #ffffff;
+}
+
+.post-section-header-address {
+  color: #434455;
+}
+.post-section-header-address:hover,
+.post-section-header-address:focus {
+  color: #404bbf;
+}
+
+.logspunone {
+  color: #4d5ae5;
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.logspuntwo {
+  color: #2e2f42;
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.navlink {
+  color: #2e2f42;
+}
+
+.navlink:hover,
+.navlink:focus {
+  color: #404bbf;
+}
+
+.navlink:active {
+  color: #404bbf;
+  text-decoration-line: underline;
+}
+
+.logspunthree {
+  color: #f4f4fd;
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.post-section-effectivesolutions {
+  background-color: #2e2f42;
+}
+
+.post-section-effectivesolutions-title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 1.12px;
+  line-height: 60px;
+}
+
+.post-section-title {
+  background-color: #ffffff;
+}
+
+.post-section-title-title {
+  color: #2e2f42;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 1.12px;
+}
+
+.post-section-title-namearticle {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: normal;
+}
+
+.post-section-title-text {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.post-section-ourteam {
+  background-color: #f4f4fd;
+}
+
+.post-section-ourteam-title {
+  color: #2e2f42;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.72px;
+}
+
+.post-section-ourteam-nameparticipants {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: normal;
+}
+
+.post-section-ourteam-text {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.post-section-ourportfolio {
+  background-color: #ffffff;
+}
+
+.post-section-ourportfolio-title {
+  color: #2e2f42;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.72px;
+  
+}
+
+.post-section-ourportfolio-projectnames {
+  color: #2e2f42;
+}
+
+.post-section-ourportfolio-text {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.post-section-footer {
+  background-color: #2e2f42;
+}
+
+.post-section-footer-text {
+  color: #e7e9fc;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.button-orderservice {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+.button-orderservice:hover,
+.button-orderservice:focus {
+  background-color: #404bbf;
+}
