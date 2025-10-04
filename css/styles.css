@@ -4,6 +4,7 @@ a {
 
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
+  text-align: center;
 }
 
 .post-section-header {
@@ -14,8 +15,8 @@ body {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 0.64px;
-  line-height: 1.3333;
+  letter-spacing: 0.32px;
+  line-height: 1.5;
   font-style: normal
 }
 .post-section-header-address:hover,
@@ -49,8 +50,8 @@ body {
   color: #2e2f42;
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 0.64px;
-  line-height: 1.3333;
+  letter-spacing: 0.32px;
+  line-height: 1.5;
 }
 
 .navlink:hover,
