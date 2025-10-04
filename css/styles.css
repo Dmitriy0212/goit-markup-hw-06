@@ -3,7 +3,7 @@ a {
 }
 
 body {
-  font-family: 'Roboto','Raleway', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
 .post-section-header {
@@ -90,7 +90,7 @@ body {
 
 .post-section-title-namearticle {
   color: #2e2f42;
-  font-weight: 500;
+  font-weight: Medium;
   font-size: 20px;
   letter-spacing: 0.4px;
   line-height: normal;
@@ -117,7 +117,7 @@ body {
 
 .post-section-ourteam-nameparticipants {
   color: #2e2f42;
-  font-weight: 500;
+  font-weight: Medium;
   font-size: 20px;
   letter-spacing: 0.4px;
   line-height: 1.5;
@@ -140,11 +140,14 @@ body {
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 0.72px;
-  
 }
 
 .post-section-ourportfolio-projectnames {
   color: #2e2f42;
+  font-weight: Medium;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
 }
 
 .post-section-ourportfolio-text {
@@ -182,4 +185,5 @@ body {
 .button-orderservice:hover,
 .button-orderservice:focus {
   background-color: #404bbf;
+  cursor: pointer;
 }
