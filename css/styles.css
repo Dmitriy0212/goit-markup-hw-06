@@ -23,7 +23,7 @@ body {
   font-family: 'Raleway';
   font-weight: bold;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.1666;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   vertical-align: middle;
@@ -34,7 +34,7 @@ body {
   font-family: 'Raleway';
   font-weight: bold;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.1666;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   vertical-align: middle;
@@ -59,7 +59,7 @@ body {
   font-family: 'Raleway';
   font-weight: bold;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.1666;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   vertical-align: middle;
@@ -74,7 +74,7 @@ body {
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 1.12px;
-  line-height: 60px;
+  line-height: 1.07;
 }
 
 .post-section-title {
@@ -100,7 +100,7 @@ body {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -120,14 +120,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.4px;
-  line-height: normal;
+  line-height: 1.5;
 }
 
 .post-section-ourteam-text {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -151,7 +151,7 @@ body {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -163,7 +163,7 @@ body {
   color: #e7e9fc;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -175,7 +175,7 @@ body {
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.64px;
 }
 
