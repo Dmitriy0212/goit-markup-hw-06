@@ -30,34 +30,16 @@ li {
   color: #404bbf;
 }
 
-.logspunone {
-  color: #4d5ae5;
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.1666;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  vertical-align: middle;
-}
-
 .logspuntwo {
   color: #2e2f42;
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.1666;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  vertical-align: middle;
 }
 
 .navlink {
   color: #2e2f42;
-  font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.32px;
   line-height: 1.5;
+  font-weight: 500
 }
 
 .navlink:hover,
@@ -72,13 +54,6 @@ li {
 
 .logspunthree {
   color: #f4f4fd;
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.1666;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  vertical-align: middle;
 }
 
 .post-section-effectivesolutions {
@@ -109,8 +84,12 @@ li {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 0.48px;
-  line-height: normal;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.posts-section-ourteam-title-post {
+  background-color: #ffffff;
 }
 
 .post-section-title-text {
@@ -163,7 +142,7 @@ li {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.72px;
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 
 .posts-section-ourportfolio-projectnames {
@@ -186,7 +165,7 @@ li {
 }
 
 .post-section-footer-text {
-  color: #e7e9fc;
+  color: #F4F4FD;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -210,4 +189,14 @@ li {
 .button-orderservice:focus {
   background-color: #404bbf;
   cursor: pointer;
+}
+
+.logfooter {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
