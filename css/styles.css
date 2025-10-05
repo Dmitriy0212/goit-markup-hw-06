@@ -23,8 +23,12 @@ li {
   font-size: 16px;
   letter-spacing: 0.32px;
   line-height: 1.5;
+}
+
+.section-address {
   font-style: normal;
 }
+
 .post-section-header-address:hover,
 .post-section-header-address:focus {
   color: #404bbf;
@@ -127,11 +131,6 @@ li {
   letter-spacing: 0.32px;
 }
 
-.posts-section-ourteam-post-img {
-  width: 264px;
-  height: 260px;
-}
-
 .posts-section-ourportfolio {
   background-color: #ffffff;
 }
@@ -176,9 +175,6 @@ li {
   font-family: 'Roboto', sans-serif;
   background-color: #4d5ae5;
   color: #ffffff;
-  width: 169px;
-  height: 56px;
-  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
