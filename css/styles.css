@@ -63,7 +63,6 @@ li {
   letter-spacing: 0.32px;
   line-height: 1.5;
   font-weight: 500;
-  padding: 24px 0;
 }
 
 .navlink:hover,
@@ -90,8 +89,6 @@ li {
   font-size: 56px;
   letter-spacing: 1.12px;
   line-height: 1.07;
-  max-width: 496px;
-  margin: 0 auto;
 }
 
 .post-section-title {
@@ -117,8 +114,6 @@ li {
 
 .posts-section-ourteam-title-post {
   background-color: #ffffff;
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .post-section-title-text {
@@ -190,7 +185,9 @@ li {
 
 .post-section-footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 30px;
 }
 
 .post-section-footer-text {
@@ -199,7 +196,7 @@ li {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  max-width: 264px;
+  width: 264px;
   text-align: start;
 }
 
@@ -211,30 +208,14 @@ li {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  min-width: 169px;
+  width: 169px;
   height: 56px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 0 auto;
-  display: block;
 }
 
 .button-orderservice:hover,
 .button-orderservice:focus {
   background-color: #404bbf;
   cursor: pointer;
-}
-
-.logheader {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px
 }
 
 .logfooter {
@@ -245,8 +226,6 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .container {
@@ -256,10 +235,6 @@ li {
 
 .section {
   padding: 120px 0;
-}
-
-.section-two {
-  padding: 188px 0;
 }
 
 .visually-hidden {
@@ -285,7 +260,7 @@ li {
 .ourportfolio-card-title {
   display: flex;
   flex-direction: column;
-  width: calc((100% - 48px) / 3);
+  width: fit-content;
 }
 
 .ourportfolio-list {
@@ -296,15 +271,8 @@ li {
   justify-content: center;
 }
 
-.ourteam-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  justify-content: center;
-}
-
 .ourteam-card {
-  padding: 32px 0;
+  padding: 32px 16px;
   text-align: center;
 }
 
@@ -321,27 +289,23 @@ img {
 
 .section-title-list-card {
   text-align: start;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: 264px;
 }
 
 .header-list {
   display: flex;
-  padding: 0 15px;
+  padding: 24px 15px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.nav-header-list {
+nav {
   display: flex;
-  align-items: center;
+  gap: 76px;
 }
 
-.address-ul-header {
-  display: flex;
-  gap: 40px;
-}
-
-.nav-ul-header {
+address > ul,
+nav > ul {
   display: flex;
   gap: 40px;
 }
