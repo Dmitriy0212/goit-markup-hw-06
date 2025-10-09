@@ -279,6 +279,10 @@ img {
   justify-content: space-around;
 }
 
+.section-title-list-card{
+  text-align: start;
+}
+
 .header-list {
   display: flex;
 }
