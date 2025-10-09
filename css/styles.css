@@ -276,6 +276,7 @@ img {
 .section-title-list {
   display: flex;
   gap: 24px;
+  margin: 0 14px;
 }
 
 .section-title-list-card {
@@ -285,10 +286,13 @@ img {
 
 .header-list {
   display: flex;
+  padding: 24px 134px;
+  justify-content: space-between;
 }
 
 nav {
   display: flex;
+  gap: 76px;
 }
 
 address > ul {
@@ -297,6 +301,7 @@ address > ul {
 
 nav > ul {
   display: flex;
+  gap: 40px;
 }
 
 
