@@ -286,7 +286,7 @@ img {
 
 .header-list {
   display: flex;
-  padding: 24px 134px;
+  padding: 24px 14px;
   justify-content: space-between;
 }
 
@@ -295,11 +295,7 @@ nav {
   gap: 76px;
 }
 
-address > ul {
-  display: flex;
-}
-
-nav > ul {
+address > ul, nav > ul {
   display: flex;
   gap: 40px;
 }
