@@ -101,6 +101,7 @@ li {
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
 }
 
 .post-section-title-namearticle {
@@ -133,6 +134,7 @@ li {
   letter-spacing: 0.02em;
   line-height: 1.11;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .posts-section-ourteam-nameparticipants {
@@ -161,6 +163,7 @@ li {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .posts-section-ourportfolio-projectnames {
@@ -169,6 +172,7 @@ li {
   font-size: 20px;
   letter-spacing: 0.4px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .posts-section-ourportfolio-text {
@@ -242,11 +246,14 @@ li {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  padding: 32px 15px;
+  text-align: left;
 }
 .ourportfolio-card-title {
   display: flex;
   flex-direction: column;
   width: fit-content;
+  margin-bottom: 24px;
 }
 
 .ourportfolio-list {
@@ -255,3 +262,4 @@ li {
   gap: 24px;
   justify-content: center;
 }
+
