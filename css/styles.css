@@ -276,11 +276,11 @@ img {
 .section-title-list {
   display: flex;
   gap: 24px;
-  justify-content: space-around;
 }
 
 .section-title-list-card {
-  text-align: justify;
+  text-align: start;
+  width: 264px;
 }
 
 .header-list {
