@@ -253,13 +253,13 @@ li {
   display: flex;
   flex-direction: column;
   width: fit-content;
-  margin-bottom: 24px;
 }
 
 .ourportfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
   justify-content: center;
 }
 
