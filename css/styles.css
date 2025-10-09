@@ -298,3 +298,8 @@ address > ul {
 nav > ul {
   display: flex;
 }
+
+
+.section-title-list-card > h3 {
+  margin-bottom: 8px;
+}
