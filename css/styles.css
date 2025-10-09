@@ -63,6 +63,7 @@ li {
   letter-spacing: 0.32px;
   line-height: 1.5;
   font-weight: 500;
+  padding: 24px 0;
 }
 
 .navlink:hover,
@@ -217,6 +218,7 @@ li {
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
+  display: block;
 }
 
 .button-orderservice:hover,
@@ -233,6 +235,7 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px
 }
 
 .logfooter {
@@ -243,7 +246,8 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .container {
@@ -253,6 +257,10 @@ li {
 
 .section {
   padding: 120px 0;
+}
+
+.section-two {
+  padding: 180px 0;
 }
 
 .visually-hidden {
@@ -297,7 +305,7 @@ li {
 }
 
 .ourteam-card {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 
@@ -319,18 +327,22 @@ img {
 
 .header-list {
   display: flex;
-  padding: 24px 15px;
+  padding: 0 15px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-nav {
+.nav-header-list {
   display: flex;
-  gap: 76px;
+  align-items: center;
 }
 
-address > ul,
-nav > ul {
+.address-ul-header {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-ul-header {
   display: flex;
   gap: 40px;
 }
