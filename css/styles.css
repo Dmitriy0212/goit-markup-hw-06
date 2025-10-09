@@ -267,3 +267,7 @@ li {
   padding: 32px 16px;
   text-align: center;
 }
+
+img {
+  display: block;
+}
