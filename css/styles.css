@@ -114,6 +114,8 @@ li {
 
 .posts-section-ourteam-title-post {
   background-color: #ffffff;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .post-section-title-text {
@@ -260,7 +262,7 @@ li {
 .ourportfolio-card-title {
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  width: calc((100% - 48px) / 3);
 }
 
 .ourportfolio-list {
@@ -268,6 +270,13 @@ li {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+  justify-content: center;
+}
+
+.ourteam-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
   justify-content: center;
 }
 
@@ -289,7 +298,7 @@ img {
 
 .section-title-list-card {
   text-align: start;
-  width: 264px;
+  flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .header-list {
