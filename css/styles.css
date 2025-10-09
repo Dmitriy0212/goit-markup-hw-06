@@ -293,4 +293,5 @@ address > ul {
 
 nav > ul {
   display: flex;
+  flex-direction: row;
 }
