@@ -81,6 +81,7 @@ li {
 
 .post-section-effectivesolutions {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .post-section-effectivesolutions-title {
@@ -89,6 +90,8 @@ li {
   font-size: 56px;
   letter-spacing: 1.12px;
   line-height: 1.07;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .post-section-title {
@@ -187,9 +190,7 @@ li {
 
 .post-section-footer {
   background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 30px;
+  padding: 100px 0;
 }
 
 .post-section-footer-text {
@@ -198,7 +199,7 @@ li {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  width: 264px;
+  max-width: 264px;
   text-align: start;
 }
 
@@ -210,14 +211,28 @@ li {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
 }
 
 .button-orderservice:hover,
 .button-orderservice:focus {
   background-color: #404bbf;
   cursor: pointer;
+}
+
+.logheader {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logfooter {
@@ -228,6 +243,7 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block
 }
 
 .container {
@@ -298,7 +314,7 @@ img {
 
 .section-title-list-card {
   text-align: start;
-  flex-basis: calc((100% - 3 * 24px) / 4)
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .header-list {
