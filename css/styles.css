@@ -234,7 +234,7 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px
+  margin-right: 76px;
 }
 
 .logfooter {
@@ -306,6 +306,10 @@ li {
 .ourteam-card {
   padding: 32px 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 img {
@@ -363,4 +367,25 @@ img {
   flex-direction: column;
   align-items: flex-start;
   gap: 15px;
+}
+
+.section-title-list-card-icon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 23.2px 99.2px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  margin-bottom: 7px;
+}
+
+.posts-section-ourteam-icon-section {
+  display: flex;
+  margin: 8px 16px 32px 16px;
+  justify-content: space-between;
+  max-width: 232px;
+  gap: 24px;
 }
