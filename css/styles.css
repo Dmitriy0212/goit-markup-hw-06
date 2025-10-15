@@ -1,5 +1,7 @@
 a {
   text-decoration: none;
+
+  display: flex;
 }
 
 body {
@@ -29,6 +31,7 @@ ol {
 
 li {
   list-style: none;
+  height: fit-content;
 }
 
 .post-section-header {
@@ -42,6 +45,7 @@ li {
   font-size: 16px;
   letter-spacing: 0.32px;
   line-height: 1.5;
+  padding: 24px 0;
 }
 
 .section-address {
@@ -202,6 +206,33 @@ li {
   max-width: 264px;
   text-align: start;
 }
+.post-section-footer-two-text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-align: start;
+  margin-bottom: 16px;
+}
+
+.post-section-footer-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer-wrap {
+  display: flex;
+  gap: 120px;
+  margin-left: 158px;
+}
+
+.footer-wrap > :first-child {
+  padding-left: 15px;
+}
 
 .button-orderservice {
   font-family: 'Roboto', sans-serif;
@@ -218,6 +249,7 @@ li {
   cursor: pointer;
   margin: 0 auto;
   display: block;
+  margin-top: 48px;
 }
 
 .button-orderservice:hover,
@@ -384,8 +416,14 @@ img {
 
 .posts-section-ourteam-icon-section {
   display: flex;
-  margin: 8px 16px 32px 16px;
+  margin: 8px auto 0;
   justify-content: space-between;
-  max-width: 232px;
   gap: 24px;
+}
+
+.footer-icon-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 208px;
+  gap: 16px;
 }
