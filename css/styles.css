@@ -91,12 +91,14 @@ li {
 }
 
 .post-section-effectivesolutions {
+  position: relative;
   width: 100%;
   background-color: #2e2f42;
   background-image: url(../images/peopleoffice.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  box-shadow: inset 0 0 10px 323px rgba(46, 47, 66, 0.7);
 }
 
 .post-section-effectivesolutions-title {
