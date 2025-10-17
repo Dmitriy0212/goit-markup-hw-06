@@ -53,7 +53,9 @@ li {
   letter-spacing: 0.32px;
   line-height: 1.5;
   padding: 24px 0;
-  transition: 250ms ease-in-out;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
 }
 
 .section-address {
@@ -76,7 +78,9 @@ li {
   line-height: 1.5;
   font-weight: 500;
   padding: 22px 0;
-  transition: 250ms ease-in-out;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
 }
 
 .navlink:hover,
@@ -265,7 +269,9 @@ li {
   margin: 0 auto;
   display: block;
   margin-top: 48px;
-  transition:250ms ease-in-out;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;;
 }
 
 .button-orderservice:hover,
@@ -507,7 +513,9 @@ img {
 
 .icon-footer {
   fill: #4d5ae5;
-  transition: 250ms ease-in-out;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
 }
 
 .icon-footer:hover {
@@ -520,7 +528,9 @@ img {
 
 .icon-ourteam {
   fill: #4d5ae5;
-  transition: 250ms ease-in-out;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
 }
 
 .icon-ourteam:hover {
