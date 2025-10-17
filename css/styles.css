@@ -55,7 +55,7 @@ li {
   padding: 24px 0;
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-address {
@@ -80,7 +80,7 @@ li {
   padding: 22px 0;
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navlink:hover,
@@ -271,14 +271,12 @@ li {
   margin-top: 48px;
   transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: ease-in-out;;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-orderservice:hover,
 .button-orderservice:focus {
-  transform: translatey(0);
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 .logheader {
@@ -530,7 +528,7 @@ img {
   fill: #4d5ae5;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-ourteam:hover {
