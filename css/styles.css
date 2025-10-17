@@ -53,6 +53,7 @@ li {
   letter-spacing: 0.32px;
   line-height: 1.5;
   padding: 24px 0;
+  transition: 250ms ease-in-out;
 }
 
 .section-address {
@@ -75,6 +76,7 @@ li {
   line-height: 1.5;
   font-weight: 500;
   padding: 22px 0;
+  transition: 250ms ease-in-out;
 }
 
 .navlink:hover,
@@ -263,10 +265,12 @@ li {
   margin: 0 auto;
   display: block;
   margin-top: 48px;
+  transition:250ms ease-in-out;
 }
 
 .button-orderservice:hover,
 .button-orderservice:focus {
+  transform: translatey(0);
   background-color: #404bbf;
   cursor: pointer;
 }
@@ -449,6 +453,7 @@ img {
 .imgcard {
   position: relative;
   overflow: hidden;
+  transition: ease-in-out 250ms;
 }
 
 .imgcard :hover .overlay {
@@ -462,9 +467,8 @@ img {
   width: 100%;
   height: 100%;
   background-color: #3f51b5;
-
   transform: translatey(100%);
-  transition: transform 250ms ease-in-out;
+  transition: 250ms ease-in-out;
 }
 
 .overlay p {
@@ -503,6 +507,7 @@ img {
 
 .icon-footer {
   fill: #4d5ae5;
+  transition: 250ms ease-in-out;
 }
 
 .icon-footer:hover {
@@ -515,6 +520,7 @@ img {
 
 .icon-ourteam {
   fill: #4d5ae5;
+  transition: 250ms ease-in-out;
 }
 
 .icon-ourteam:hover {
