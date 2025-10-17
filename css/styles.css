@@ -472,7 +472,8 @@ img {
   height: 100%;
   background-color: #3f51b5;
   transform: translatey(100%);
-  transition: 250ms ease-in-out;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay p {
@@ -513,7 +514,7 @@ img {
   fill: #4d5ae5;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-footer:hover {
