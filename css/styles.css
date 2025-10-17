@@ -507,15 +507,7 @@ img {
   align-items: center;
 }
 
-.nav-ul-header > li:active::before {
-  content: '';
-  width: 45px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
-
-.nav-ul-header > li:focus::before {
+.studio::before {
   content: '';
   width: 45px;
   height: 4px;
