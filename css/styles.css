@@ -44,6 +44,8 @@ li {
   position: sticky;
   top: 0;
   z-index: 999;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .post-section-header-address {
@@ -249,14 +251,14 @@ li {
   flex-wrap: wrap;
   align-content: flex-start;
   align-items: flex-start;
-  margin-right: 120px
+  margin-right: 120px;
 }
 
 .footer-wrap {
   display: flex;
   gap: 120px;
   margin-left: 158px;
-  align-items: baseline
+  align-items: baseline;
 }
 
 .footer-wrap > :first-child {
@@ -426,6 +428,7 @@ img {
 .nav-ul-header {
   display: flex;
   gap: 40px;
+  position: relative;
 }
 
 .section-title-list-card > h3 {
@@ -526,12 +529,30 @@ img {
   align-items: center;
 }
 
-.studio::before {
+.first-nav-linc {
+  color: #404bbf;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  line-height: 1.5;
+  font-weight: 500;
+  padding: 22px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.studio {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.studio::after {
   content: '';
   width: 45px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -1px; 
 }
 
 .icon-footer {
