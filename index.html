@@ -628,5 +628,77 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="button-close-modal">
+          <svg viewBox="0 0 32 32" width="8" height="8">
+            <use href="./images/icons.svg#icon-button-close"></use>
+          </svg>
+        </button>
+        <form class="form">
+          <h3 class="posts-section-modal-text">Leave your contacts and we will call you back</h3>
+          <label class="form-label">
+            Name
+            <svg
+              viewBox="0 0 32 32"
+              width="18"
+              height="24"
+              class="svgicons-footer input-icon"
+            >
+              <use href="./images/icons.svg#icon-user"></use>
+            </svg>
+            <input class="form-input" type="text" name="name_user" />
+          </label>
+
+          <label class="form-label">
+            Phone
+            <svg
+              viewBox="0 0 32 32"
+              width="18"
+              height="24"
+              class="svgicons-footer input-icon"
+            >
+              <use href="./images/icons.svg#icon-pone"></use>
+            </svg>
+            <input class="form-input" type="tel" name="phone_user" />
+          </label>
+
+          <label class="form-label">
+            Email
+            <svg
+              viewBox="0 0 32 32"
+              width="18"
+              height="24"
+              class="svgicons-footer input-icon"
+            >
+              <use href="./images/icons.svg#icon-mail"></use>
+            </svg>
+            <input class="form-input" type="email" name="email_user" />
+          </label>
+
+          <label class="form-label">
+            Comment
+            <textarea
+              class="form-textarea"
+              name="description"
+              placeholder="Text input"
+              rows="7"
+            ></textarea>
+          </label>
+          <label class="checkbox-privacypolicy" for="associated_offers">
+            <input
+            class="checkbox-check"
+              type="checkbox"
+              name="newsletter"
+              value="associated_offers"
+              id="associated_offers"
+            />
+            I accept the terms and conditions of the
+            <a href="">Privacy Policy</a>
+          </label>
+          <button class="button-submit" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
