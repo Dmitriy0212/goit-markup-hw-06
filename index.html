@@ -621,26 +621,42 @@
             </li>
           </ul>
         </div>
-       <div class="subscribediv">
-        <p class="subscribelabelp">Subscribe</p>
-        <form class="subscribeform">
-          <label class="subscribelabel" for="subscribeid">
-            <input id="subscribeid" name="subscribeid" class="subscribe-input" type="email" placeholder="E-mail" />
-          </label>
-          <button class="subscribe" type="submit">
-            Subscribe
-            <svg class="svgsubscribe" viewBox="0 0 38 32" width="24" height="24">
-              <use href="./images/icons.svg#icon-icon-send"></use>
-            </svg>
-          </button>
-        </form>
-       </div>
+        <div class="subscribediv">
+          <p class="subscribelabelp">Subscribe</p>
+          <form class="subscribeform">
+            <label class="subscribelabel" for="subscribeid">
+              <input
+                id="subscribeid"
+                name="subscribeid"
+                class="subscribe-input"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe" type="submit">
+              Subscribe
+              <svg
+                class="svgsubscribe"
+                viewBox="0 0 38 32"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="button-close-modal">
-          <svg class="button-close-svg" viewBox="0 0 32 32" width="8" height="8">
+          <svg
+            class="button-close-svg"
+            viewBox="0 0 32 32"
+            width="8"
+            height="8"
+          >
             <use href="./images/icons.svg#icon-button-close"></use>
           </svg>
         </button>
@@ -648,56 +664,77 @@
           Leave your contacts and we will call you back
         </p>
         <form class="form">
-          <label class="form-label">
-            Name
-            <svg width="18" height="24" class="input-icon">
-              <use href="./images/icons.svg#icon-user"></use>
-            </svg>
-            <input class="form-input" type="text" name="name_user" />
-          </label>
-
-          <label class="form-label">
-            Phone
-            <svg width="18" height="24" class="input-icon">
-              <use href="./images/icons.svg#icon-pone"></use>
-            </svg>
-            <input class="form-input" type="tel" name="phone_user" />
-          </label>
-
-          <label class="form-label">
-            Email
-            <svg width="18" height="24" class="input-icon">
-              <use href="./images/icons.svg#icon-mail"></use>
-            </svg>
-            <input class="form-input" type="email" name="email_user" />
-          </label>
-
-          <label class="form-label">
-            Comment
-            <textarea
-              class="form-textarea"
-              name="description"
-              placeholder="Text input"
-              rows="7"
-            ></textarea>
-          </label>
-
-          <input
-            class="checkbox-check visually-hidden"
-            type="checkbox"
-            name="privacypolicy"
-            value="true"
-            id="privacypolicy"
-          />
-          <label class="checkbox-privacypolicy" for="privacypolicy">
-            <span class="check-empty">
-              <svg width="10" height="8" class="input-check-icon">
-                <use href="./images/icons.svg#icon-checkbox"></use>
+          <div class="formposition">
+            <label for="user-name" class="form-label">Name</label>
+            <div class="inputposition">
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+              />
+              <svg width="18" height="24" class="input-icon">
+                <use href="./images/icons.svg#icon-user"></use>
               </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a href="">Privacy Policy</a>
-          </label>
+            </div>
+            <div class="formposition">
+              <label for="phone-user" class="form-label">Phone</label>
+              <div class="inputposition">
+                <input
+                  class="form-input"
+                  type="tel"
+                  name="phone-user"
+                  id="phone-user"
+                />
+                <svg width="18" height="24" class="input-icon">
+                  <use href="./images/icons.svg#icon-pone"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="formposition">
+              <label for="email-user" class="form-label">Email</label>
+              <div class="inputposition">
+                <input
+                  class="form-input"
+                  type="email"
+                  id="email-user"
+                  name="email-user"
+                />
+                <svg width="18" height="24" class="input-icon">
+                  <use href="./images/icons.svg#icon-mail"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="formposition">
+              <label for="user-comment" class="form-label">Comment</label>
+              <div class="inputposition">
+                <textarea
+                  class="form-textarea"
+                  name="user-comment"
+                  placeholder="Text input"
+                  id="user-comment"
+                  rows="7"
+                ></textarea>
+              </div>
+            </div>
+
+            <input
+              class="checkbox-check visually-hidden"
+              type="checkbox"
+              name="privacypolicy"
+              value="true"
+              id="privacypolicy"
+            />
+            <label class="checkbox-privacypolicy" for="privacypolicy">
+              <span class="check-empty">
+                <svg width="10" height="8" class="input-check-icon">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
+          </div>
           <button class="button-submit" type="submit">Send</button>
         </form>
       </div>
