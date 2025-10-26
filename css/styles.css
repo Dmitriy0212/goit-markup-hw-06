@@ -622,7 +622,6 @@ img {
 }
 
 .modal {
-  margin: 80px auto 12px;
   background-color: #fcfcfc;
   display: flex;
   flex-direction: column;
@@ -636,6 +635,7 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .form-label {
@@ -711,12 +711,14 @@ textarea {
 }
 
 .button-close-modal {
+  position: absolute;
   box-shadow: none;
+  padding: 0;
   font-size: revert-layer;
   background-color: #e7e9fc;
   cursor: pointer;
-  margin-top: 24px;
-  margin-right: 24px;
+  top: 24px;
+  right: 24px;
   display: flex;
   width: 24px;
   min-height: 24px;
@@ -727,7 +729,8 @@ textarea {
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-close-modal:hover {
@@ -785,9 +788,11 @@ textarea {
 .posts-section-modal-text {
   color: #2e2f42;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
 .checkbox-check {
@@ -905,6 +910,6 @@ textarea {
   gap: 24px;
 }
 
-.button-close-svg{
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+.button-close-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
