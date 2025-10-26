@@ -252,7 +252,6 @@ li {
   display: flex;
   margin-left: 158px;
   align-items: baseline;
-  padding: 0 15px;
   justify-content: space-between;
 }
 
@@ -360,8 +359,6 @@ li {
   row-gap: 48px;
   column-gap: 24px;
   justify-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .ourteam-list {
@@ -369,8 +366,6 @@ li {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .ourteam-card {
@@ -389,7 +384,6 @@ img {
 .section-title-list {
   display: flex;
   gap: 24px;
-  margin: 0 14px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -401,9 +395,9 @@ img {
 
 .header-list {
   display: flex;
-  padding: 0 15px;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .nav-header-list {
