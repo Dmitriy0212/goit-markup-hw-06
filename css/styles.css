@@ -839,6 +839,13 @@ textarea {
   fill: transparent;
 }
 
+.form
+  input[type='checkbox']:checked
+  + .checkbox-privacypolicy
+  > .check-empty
+  > svg {
+  fill: #ffffff;
+}
 .checkbox-check:checked + .checkbox-privacypolicy > .check-empty {
   background-color: #404bbf;
   border: none;
