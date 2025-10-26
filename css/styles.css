@@ -839,17 +839,10 @@ textarea {
   fill: transparent;
 }
 
-.form
-  input[type='checkbox']:checked
-  + .checkbox-privacypolicy
-  > .check-empty
-  > svg {
-  fill: #ffffff;
-}
 .checkbox-check:checked + .checkbox-privacypolicy > .check-empty {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .checkbox-check:focus + .checkbox-privacypolicy > .check-empty {
