@@ -821,6 +821,10 @@ textarea {
   appearance: none;
 }
 
+.checkbox-check:checked .check-empty > svg {
+  fill: #f4f4fd;
+}
+
 .check-empty {
   width: 16px;
   height: 16px;
