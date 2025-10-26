@@ -936,3 +936,7 @@ textarea {
 .inputposition {
   position: relative;
 }
+
+.checkboxposition{
+  margin-bottom: 24px;
+}
