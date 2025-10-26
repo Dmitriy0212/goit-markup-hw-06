@@ -631,6 +631,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   min-height: 584px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -655,13 +656,7 @@ textarea {
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
-  padding: 24px;
-  gap: 5px;
-  flex-wrap: wrap;
   align-content: center;
-  justify-content: center;
   margin: 0 auto;
 }
 
@@ -758,16 +753,12 @@ textarea {
 }
 
 .checkbox-privacypolicy {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   align-items: flex-start;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  gap: 8px;
   margin-top: 5px;
 }
 
