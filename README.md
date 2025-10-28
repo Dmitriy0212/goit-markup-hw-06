@@ -1,2 +1,2 @@
-# goit-markup-hw-05
-Homework module №5
+# goit-markup-hw-06
+Homework module №6
