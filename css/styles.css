@@ -37,6 +37,7 @@ li {
 }
 
 .post-section-header {
+  display: none;
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -111,12 +112,13 @@ li {
 }
 
 .post-section-effectivesolutions-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
-  font-weight: 600;
-  font-size: 56px;
-  letter-spacing: 1.12px;
-  line-height: 1.07;
-  max-width: 496px;
+  min-width: 216px;
   margin: 0 auto;
 }
 
@@ -143,7 +145,6 @@ li {
 
 .posts-section-ourteam-title-post {
   background-color: #ffffff;
-  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -153,7 +154,7 @@ li {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .posts-section-ourteam {
@@ -218,7 +219,7 @@ li {
 
 .post-section-footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .post-section-footer-text {
@@ -241,18 +242,22 @@ li {
 }
 
 .post-section-footer-content {
+  display: block;
+}
+
+.post-section-footer-content-links {
   display: flex;
   flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
-  align-content: flex-start;
-  align-items: flex-start;
 }
 
 .footer-wrap {
   display: flex;
-  margin-left: 158px;
   align-items: baseline;
   justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .button-orderservice {
@@ -262,7 +267,7 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -270,7 +275,7 @@ li {
   cursor: pointer;
   margin: 0 auto;
   display: block;
-  margin-top: 48px;
+  margin-top: 72px;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -305,17 +310,17 @@ li {
 }
 
 .container {
-  max-width: 1158px;
+  max-width: 320px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
 }
 
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .section-two {
-  padding: 188px 0;
+  padding: 72px 0;
 }
 
 .visually-hidden {
@@ -341,7 +346,7 @@ li {
 .ourportfolio-card-title {
   display: flex;
   flex-direction: column;
-  width: calc((100% - 48px) / 3);
+  width: 288px;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -379,6 +384,7 @@ li {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .section-title-list {
@@ -390,7 +396,7 @@ img {
 
 .section-title-list-card {
   text-align: start;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  max-width: 356px;
 }
 
 .header-list {
@@ -417,6 +423,12 @@ img {
 
 .section-title-list-card > h3 {
   margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .effectivesolutions-list {
@@ -435,7 +447,7 @@ img {
 }
 
 .section-title-list-card-icon {
-  display: flex;
+  display: none;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
@@ -618,7 +630,7 @@ img {
   background-color: #fcfcfc;
   flex-direction: column;
   align-items: flex-end;
-  width: 408px;
+  width: 288px;
   border-radius: 4px;
   position: absolute;
   top: 50%;
@@ -628,7 +640,7 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
 }
 
 .form-label {
@@ -872,7 +884,7 @@ textarea {
   background-color: transparent;
   border: 1px solid #ffffff;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   font-size: 12px;
   line-height: 2;
@@ -890,7 +902,7 @@ textarea {
 }
 
 .subscribediv {
-  text-align: left;
+  text-align: center;
 }
 
 .subscribelabel {
@@ -912,6 +924,7 @@ textarea {
 .subscribeform {
   display: flex;
   gap: 24px;
+  flex-direction: column;
 }
 
 .button-close-svg {
@@ -929,4 +942,55 @@ textarea {
 .lincprivacypolicy {
   text-decoration: underline;
   color: #4d5ae5;
+}
+
+@media screen and (min-width: 768px) {
+  .ourportfolio-card-title {
+    width: calc((100% - 24px) / 2);
+  }
+  .container {
+    max-width: 768px;
+  }
+  .section-title-list-card > h3 {
+    text-align: start;
+  }
+  .post-section-effectivesolutions-title {
+    font-size: 56px;
+    line-height: 1.07143;
+    max-width: 496px;
+  }
+  .section-two {
+    padding: 112px 0;
+  }
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .ourportfolio-card-title {
+    width: calc((100% - 48px) / 3);
+  }
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+  .section-title-list-card {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+  .section-title-list-card > h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: start;
+  }
+  .section-title-list-card-icon {
+    display: flex;
+  }
+  .section-two {
+    padding: 188px 0;
+  }
+  .section {
+    padding: 120px 0;
+  }
 }
