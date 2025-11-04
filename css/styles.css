@@ -175,6 +175,7 @@ textarea {
   display: block;
   background-color: inherit;
   border: none;
+  cursor: pointer;
 }
 
 .solid-menu-svgicons {
