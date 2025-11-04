@@ -1114,7 +1114,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 584px;
+    max-width: 768px;
   }
 
   .post-section-header {
@@ -1179,6 +1179,10 @@ textarea {
 
   .section-title-list {
     gap: 72px 24px;
+  }
+
+  .footer-wrap {
+    max-width: 584px;
   }
 
   .modal {
