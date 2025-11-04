@@ -1191,7 +1191,6 @@ textarea {
   }
   .post-section-footer-content-social {
     flex-direction: row;
-    margin-bottom: 4px;
     column-gap: 24px;
   }
 
