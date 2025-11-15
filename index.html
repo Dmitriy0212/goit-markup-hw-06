@@ -20,7 +20,9 @@
     <header class="post-section-header">
       <div class="container header-list">
         <nav class="nav-header-list">
-          <a href="./index.html" class="logheader">Web<span class="logspuntwo">Studio</span>
+          <a href="./index.html" class="logheader">
+            Web
+            <span class="logspuntwo">Studio</span>
           </a>
           <ul class="nav-ul-header">
             <li>
@@ -165,7 +167,7 @@
           <h1 class="post-section-effectivesolutions-title">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="button-orderservice">
+          <button id="0213" type="button" class="button-orderservice">
             Order Service
           </button>
         </div>
@@ -793,7 +795,9 @@
       <div class="footer-wrap container">
         <div class="post-section-footer-content-social">
           <div class="post-section-footer-content">
-            <a href="./index.html" class="logfooter">Web<span class="logspunthree">Studio</span>
+            <a href="./index.html" class="logfooter">
+              Web
+              <span class="logspunthree">Studio</span>
             </a>
             <p class="post-section-footer-text">
               Increase the flow of customers and sales for your business with
@@ -889,9 +893,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div id="0212" class="backdrop">
       <div class="modal">
-        <button type="button" class="button-close-modal">
+        <button id="0214" type="button" class="button-close-modal">
           <svg
             class="button-close-svg"
             viewBox="0 0 32 32"
@@ -981,4 +985,23 @@
       </div>
     </div>
   </body>
+  <script>
+    let a = document.getElementById('0212');
+    let b = document.getElementById('0214');
+    let c = document.getElementById('0213');
+    a.addEventListener('click', e => {
+      a.classList.toggle('is-open');
+    });
+    b.addEventListener('click', e => {
+      a.classList.toggle('is-open');
+    });
+    a.children[0].addEventListener('click', e => {
+      e.stopPropagation();
+    });
+    c.addEventListener('click', e => {
+      a.classList.add('is-open');
+    });
+   
+    
+  </script>
 </html>

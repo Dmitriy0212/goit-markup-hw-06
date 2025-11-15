@@ -201,11 +201,6 @@ textarea {
   justify-content: space-between;
 }
 
-.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: all;
-}
 
 .content-solid-menu {
   display: flex;
@@ -1112,6 +1107,12 @@ textarea {
   background-color: #404bbf;
 }
 
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -1305,3 +1306,19 @@ textarea {
     margin-left: 0px;
   }
 }
+
+.telega__full {
+  animation: 1300ms ease 0s infinite normal none running glowing;
+}
+
+
+
+@keyframes glowing {
+  100% {
+    box-shadow: rgb(54, 185, 242) 0px 0px 0px 0px;
+  }
+  0% {
+    box-shadow: rgb(0, 185, 242) 0px 0px 18px 0px;
+  }
+}
+
