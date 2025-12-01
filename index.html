@@ -49,14 +49,14 @@
             </li>
           </ul>
         </address>
-        <button class="solid-menu">
+        <button class="solid-menu" id="0217">
           <svg width="24" height="24" class="solid-menu-svgicons">
             <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
           </svg>
         </button>
       </div>
-      <div class="backdrop-solid-menu">
-        <button type="button" class="button-close-modal">
+      <div class="backdrop-solid-menu is-open" id="0218">
+        <button type="button" class="button-close-modal" id="0219">
           <svg
             class="button-close-svg"
             viewBox="0 0 32 32"
@@ -990,6 +990,10 @@
     let a = document.getElementById('0212');
     let b = document.getElementById('0214');
     let c = document.getElementById('0213');
+    let d = document.getElementById('0217');
+    let f = document.getElementById('0218');
+    let j = document.getElementById('0219');
+
     a.addEventListener('click', e => {
       a.classList.toggle('is-open');
     });
@@ -1001,6 +1005,12 @@
     });
     c.addEventListener('click', e => {
       a.classList.add('is-open');
+    });
+    d.addEventListener('click', e => {
+      f.classList.toggle('is-open');
+    });
+    j.addEventListener('click', e => {
+      f.classList.toggle('is-open');
     });
   </script>
 </html>
