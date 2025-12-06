@@ -997,18 +997,23 @@
     a.addEventListener('click', e => {
       a.classList.toggle('is-open');
     });
+
     b.addEventListener('click', e => {
       a.classList.toggle('is-open');
     });
+
     a.children[0].addEventListener('click', e => {
       e.stopPropagation();
     });
+
     c.addEventListener('click', e => {
       a.classList.add('is-open');
     });
+
     d.addEventListener('click', e => {
       f.classList.toggle('is-open');
     });
+
     j.addEventListener('click', e => {
       f.classList.toggle('is-open');
     });
