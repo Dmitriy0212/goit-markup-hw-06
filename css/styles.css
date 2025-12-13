@@ -183,9 +183,10 @@ textarea {
 }
 
 .backdrop-solid-menu {
-  position: fixed;
+  position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  transform: translatey(100%);
   top: 0;
   left: 0;
   z-index: 10;
@@ -194,9 +195,10 @@ textarea {
   pointer-events: none;
   background-color: #ffffff;
   padding: 72px 0 40px 16px;
-  display: flex;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -1112,6 +1114,10 @@ textarea {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
+  transform: translatey(0%);
+  transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 1500ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 1500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) {
